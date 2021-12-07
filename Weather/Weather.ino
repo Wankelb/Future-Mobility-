@@ -23,8 +23,8 @@ const int pwmResolution = 8;
 const int pwmLedChannelTFT = 0;
 
 
-const char* ssid     = "Vq35rDE";       ///EDIIIT
-const char* password = "1969ss1969"; //EDI8IT
+const char* ssid     = "VqXXXX";       ///EDIIIT
+const char* password = "19XXXXXX"; //EDI8IT
 String town="Stuttgart";              //EDDIT
 String Country="DE";                //EDDIT
 const String endpoint = "http://api.openweathermap.org/data/2.5/weather?q="+town+","+Country+"&units=metric&APPID=";
