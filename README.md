@@ -33,5 +33,18 @@ Der DHT 11 Sensor am Whiteboard übermittelt die Daten an das NANO 33 Modul. Die
 # Projekt 3: Intelligente Home Sicherheit
 In diesem Projekt soll ein Home-Sicherheitssystem gemacht werden. Als elektronische Teile werden ein Arduino Uno, ein GSM 808-Modul, ein GPS-Sensor und ein Ultraschallsensor verwendet. Ziel des Projekts ist es, einen Standortlink von Google Maps zu generieren, wenn der Ultraschallsensor eine Bewegung erkennt. Dieser Standortlink wird vom GSM-Modul 808 als SMS an den Benutzer gesendet.
 <p align="center">
-<img src=".//projekt3.png"| width=250>
+<img src=".//projekt3.png"| width=300>
+</p> 
+
+Wenn der Arduino Uno eine Abweichung in den Sensordaten erkennt, aktiviert der UNO automatisch den Alarm. Danach sendet es eine Nachricht an den Benutzer mit dem GSM 808-Modul.
+<p align="center">
+<img src=".//IMG_6723.jpg"| width=300>
+</p> 
+Diese Meldung  beinhaltet die Frage, ob Standortinformationen an die Polizei weitergeleitet werden sollen. Wenn diese Nachricht mit „JA“ beantwortet wird, wird der GPS-Sensor im Gsm808 automatisch aktiviert. Dank der vom GPS-Sensor empfangenen Daten wird ein Google-Maps-Link erstellt. Die erstellten Standortinformationen werden dem Benutzer über GSM 808 mitgeteilt.
+<p align="center">
+<img src=".//IMG_6724.jpg"| width=300>
+</p> 
+
+<p align="center">
+<img src=".//IMG_6725.jpg"| width=300>
 </p> 
