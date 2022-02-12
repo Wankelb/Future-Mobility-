@@ -25,7 +25,13 @@ Zuerst verbindet sich das Esp32-Modul mit dem Internet. Nach der Verbindung wird
 In diesem Projekt wird das Modul Arduino IoT Nano 33 verwendet. Dieses Modul kann sich mit der Arduino Cloud verbinden und die Komponenten auf dem Whiteboard über das Internet steuern. Arduino Cloud: „Die Arduino IoT Cloud ermöglicht es Nutzern, mehrere Sensoren zentral zu verwalten und einzurichten. Die Umgebung macht es auch möglich, Scripts mit anderen Nutzern zu teilen und aus der Ferne zu verteilen. Nicht nur Arduino-Boards, sondern viele andere Linux-Geräte sind damit kompatibel. Elektronik Bauteile auf dem Whiteboard: Arduino Nano IoT 33, DHT 11 Temperatur Sensor, Traffic LED, Blau LED.
 
 <p align="center">
-<img src=".//Ohne Titel 3.jpg"| width=250>
+<img src=".//Titel3.jpg"| width=250>
 </p> 
 
 Der DHT 11 Sensor am Whiteboard übermittelt die Daten an das NANO 33 Modul. Dieses Modul sendet Daten über das Internet an die Cloud. Auf diese Weise können die vom Sensor empfangenen Daten im Internet und in Apps auf mobilen Geräten eingesehen werden. Die LEDs des Whiteboards können auch über Apps auf mobilen Geräten gesteuert werden. Der Benutzer erstellt eine Anfrage über die Umschalttaste in der App, um die LEDs einzuschalten. Nachdem die Arduino Cloud diese Anfrage genehmigt hat, überträgt sie die Anfrage über das Internet an das NANO 33-Modul. Dann schaltet der Nano 33 die LEDs auf dem Whiteboard ein.
+
+# Projekt 3: Intelligente Home Sicherheit
+In diesem Projekt soll ein Home-Sicherheitssystem gemacht werden. Als elektronische Teile werden ein Arduino Uno, ein GSM 808-Modul, ein GPS-Sensor und ein Ultraschallsensor verwendet. Ziel des Projekts ist es, einen Standortlink von Google Maps zu generieren, wenn der Ultraschallsensor eine Bewegung erkennt. Dieser Standortlink wird vom GSM-Modul 808 als SMS an den Benutzer gesendet.
+<p align="center">
+<img src=".//projekt3.png"| width=250>
+</p> 
