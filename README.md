@@ -16,3 +16,16 @@ Der ESP32 ist eine kostengünstige und mit geringem Leistungsbedarf ausgeführte
 <p align="center">
 <img src=".//OpenWeather-Logo.jpg"| width=250>
 </p> 
+
+Die Wetterinformationen stammen von OpenWeather. OpenWeather ist ein Team aus IT-Experten und Datenwissenschaftlern, das seit 2014 Deep Weather Data Science praktiziert. OpenWeather stellt für jeden Punkt auf der Welt historische, aktuelle und prognostizierte Wetterdaten über APIs und Cloud-Dienste bereit.
+Zuerst verbindet sich das Esp32-Modul mit dem Internet. Nach der Verbindung wird eine Verbindung zur OpenWeather-API angefordert. Das System prüft, ob der KEY von Esp32 korrekt ist. Dieser KEY wird von OPENWeather nach Anfrage erhalten. Nach der KEY-Überprüfung wird der Zugriff auf die Daten bereitgestellt. Diese empfangenen Informationen werden dann auf dem Bildschirm angezeigt.
+
+# Projekt 2: Remote Control durch Arduino IoT Cloud Service
+
+In diesem Projekt wird das Modul Arduino IoT Nano 33 verwendet. Dieses Modul kann sich mit der Arduino Cloud verbinden und die Komponenten auf dem Whiteboard über das Internet steuern. Arduino Cloud: „Die Arduino IoT Cloud ermöglicht es Nutzern, mehrere Sensoren zentral zu verwalten und einzurichten. Die Umgebung macht es auch möglich, Scripts mit anderen Nutzern zu teilen und aus der Ferne zu verteilen. Nicht nur Arduino-Boards, sondern viele andere Linux-Geräte sind damit kompatibel. Elektronik Bauteile auf dem Whiteboard: Arduino Nano IoT 33, DHT 11 Temperatur Sensor, Traffic LED, Blau LED.
+
+<p align="center">
+<img src=".//Ohne Titel 3.jpg"| width=250>
+</p> 
+
+Der DHT 11 Sensor am Whiteboard übermittelt die Daten an das NANO 33 Modul. Dieses Modul sendet Daten über das Internet an die Cloud. Auf diese Weise können die vom Sensor empfangenen Daten im Internet und in Apps auf mobilen Geräten eingesehen werden. Die LEDs des Whiteboards können auch über Apps auf mobilen Geräten gesteuert werden. Der Benutzer erstellt eine Anfrage über die Umschalttaste in der App, um die LEDs einzuschalten. Nachdem die Arduino Cloud diese Anfrage genehmigt hat, überträgt sie die Anfrage über das Internet an das NANO 33-Modul. Dann schaltet der Nano 33 die LEDs auf dem Whiteboard ein.
