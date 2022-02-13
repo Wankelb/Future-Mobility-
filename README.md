@@ -46,5 +46,5 @@ Diese Meldung  beinhaltet die Frage, ob Standortinformationen an die Polizei wei
 </p> 
 
 <p align="center">
-<img src=".//IMG_6725.jpg"| width=300>
+<img src=".//IMG_6725.PNG"| width=300>
 </p> 
