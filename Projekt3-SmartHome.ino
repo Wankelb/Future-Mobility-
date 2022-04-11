@@ -111,7 +111,7 @@ void sendSMS()
 {
   Serial.println("SOS!");
 
-  sim808.println("AT+CMGS=\"+4915774226468\"");
+  sim808.println("AT+CMGS=\"+xxx_XXX\"");
   delay(500);
   sim808.println("Warnung! Bewegung erkannt!!");
   sim808.println("Alarm ist an!");
